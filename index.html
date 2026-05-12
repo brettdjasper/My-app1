@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Waterbury Development Partners, LLC</title>
+  <meta name="description" content="Waterbury Development Partners, LLC — West Coast real estate development and construction that takes the long view." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a href="#home" class="brand" aria-label="Waterbury Development Partners — home">
+        <span class="brand-mark">wdp</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===================== HOME / HERO ===================== -->
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <div class="logo-block">
+          <!-- Swap this span for <img src="images/logo.png" alt="WDP"> when you have the logo file -->
+          <span class="logo-mark">wdp</span>
+          <p class="wordmark">Waterbury Development<br />Partners, LLC</p>
+        </div>
+        <h1 class="tagline">Real estate development and construction that takes the long view.</h1>
+        <ul class="hero-points">
+          <li>West Coast multifamily focus.</li>
+          <li>Market Rate, Workforce, Affordable.</li>
+          <li>Land, Infill, Mixed Use.</li>
+          <li>Advisory and Principal Investment.</li>
+        </ul>
+        <a href="#projects" class="link-arrow">Find out more &gt;</a>
+      </div>
+      <div class="hero-image">
+        <img src="images/hero-home.jpg" alt="Modern multi-story home illuminated at dusk"
+             onerror="this.style.display='none';this.parentElement.classList.add('no-img')" />
+      </div>
+    </section>
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section id="projects" class="section projects">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-intro">A selection of the developments we have worked on.</p>
+
+      <div class="project-grid">
+        <!--
+          To add a project, copy one <article class="project-card"> block below and fill in:
+          - the image src (drop the photo into the images/ folder)
+          - the <h3> project name
+          - the .project-meta line (location · year, etc.)
+          - the .project-desc paragraph
+        -->
+        <article class="project-card">
+          <div class="project-thumb">
+            <img src="images/project-1.jpg" alt=""
+                 onerror="this.style.display='none';this.parentElement.classList.add('no-img')" />
+          </div>
+          <h3>Project name</h3>
+          <p class="project-meta">City, State &middot; Year</p>
+          <p class="project-desc">Short description of the project — what it is, the role WDP played, and the outcome.</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">
+            <img src="images/project-2.jpg" alt=""
+                 onerror="this.style.display='none';this.parentElement.classList.add('no-img')" />
+          </div>
+          <h3>Project name</h3>
+          <p class="project-meta">City, State &middot; Year</p>
+          <p class="project-desc">Short description of the project — what it is, the role WDP played, and the outcome.</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">
+            <img src="images/project-3.jpg" alt=""
+                 onerror="this.style.display='none';this.parentElement.classList.add('no-img')" />
+          </div>
+          <h3>Project name</h3>
+          <p class="project-meta">City, State &middot; Year</p>
+          <p class="project-desc">Short description of the project — what it is, the role WDP played, and the outcome.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================== THE TEAM ===================== -->
+    <section id="team" class="section team">
+      <h2 class="section-title">The Team</h2>
+      <div class="team-grid">
+        <article class="member">
+          <h3 class="member-name">Alex Waterbury</h3>
+          <p class="member-role">
+            Managing Partner
+            <a class="li-badge" href="https://www.linkedin.com" target="_blank" rel="noopener" aria-label="Alex Waterbury on LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4V24h-4V8zM7.5 8h3.84v2.18h.05c.53-1 1.84-2.18 3.8-2.18 4.06 0 4.81 2.67 4.81 6.14V24h-4v-6.86c0-1.64-.03-3.74-2.28-3.74-2.28 0-2.63 1.78-2.63 3.62V24h-4V8z"/></svg>
+            </a>
+          </p>
+          <p>Alex formed WDP after 26 years as a leader in real estate advisory, asset management, and ground-up development. He has worked for firms large and small, public and private &ndash; from local entrepreneurs to a global private equity firm &ndash; and invested in communities across the country. Throughout, housing development has been his core passion and expertise, ranging from single-family land planning to high-density urban infill construction. His most recent experience building an affordable housing platform has prepared him to address one of the nation&rsquo;s most pressing challenges. With a focus on supply-constrained markets in the Western US, and embracing difficult sites that require creativity and ample patience, he has founded WDP to be a true solutions-oriented development partner.</p>
+        </article>
+
+        <article class="member">
+          <h3 class="member-name">Natalie W. Miles</h3>
+          <p class="member-role">
+            Design, Operations, Accounting
+            <a class="li-badge" href="https://www.linkedin.com" target="_blank" rel="noopener" aria-label="Natalie W. Miles on LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4V24h-4V8zM7.5 8h3.84v2.18h.05c.53-1 1.84-2.18 3.8-2.18 4.06 0 4.81 2.67 4.81 6.14V24h-4v-6.86c0-1.64-.03-3.74-2.28-3.74-2.28 0-2.63 1.78-2.63 3.62V24h-4V8z"/></svg>
+            </a>
+          </p>
+          <p>Natalie brings a wealth of experiences in branding and graphic design to the WDP platform, with a degree from the Parsons School of Design and roles at HDR Architects, Alfatech, and Wells Fargo. More recently, she has honed a broader set of real estate property management and operations skills, with proficiency in Yardi, Quickbooks, and Adobe Suite.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section id="contact" class="section contact">
+      <h2 class="section-title">Contact Us</h2>
+      <address>
+        1100 Moraga Way<br />
+        Suite 210<br />
+        Moraga, CA 94556
+      </address>
+      <p><a href="mailto:info@waterburydev.com">info@waterburydev.com</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Waterbury Development Partners, LLC</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
