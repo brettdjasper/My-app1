@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Waterbury Development Partners, LLC</title>
+  <meta name="description" content="Developments and transactions worked on by Waterbury Development Partners, LLC." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html" class="brand" aria-label="Waterbury Development Partners — home">
+        <img src="images/logo.png" alt="Waterbury Development Partners" class="brand-logo"
+             onerror="this.style.display='none';this.nextElementSibling.hidden=false" />
+        <span class="brand-mark" hidden>wdp</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" aria-current="page">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section projects">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-intro">A selection of the developments and transactions we have worked on.</p>
+
+      <div class="project-grid">
+        <!--
+          To add a project, copy one <article class="project-card"> block below and fill in:
+          - the image src (drop the photo into the images/ folder)
+          - the <h3> PROJECT NAME
+          - Address
+          - Year Built  (or "Year Transacted" if it is not a development — edit the <dt> text)
+          - Project Info (product type, unit count or building sq ft)
+          - Employer
+          - Financing  (equity & debt partners if a development; building owner if a transaction)
+          Delete any <div> row that does not apply.
+        -->
+        <article class="project-card">
+          <div class="project-thumb">
+            <img src="images/project-1.jpg" alt=""
+                 onerror="this.style.display='none';this.parentElement.classList.add('no-img')" />
+          </div>
+          <h3>PROJECT NAME</h3>
+          <dl class="project-facts">
+            <div><dt>Address</dt><dd>Street, City, State</dd></div>
+            <div><dt>Year Built</dt><dd>Year</dd></div>
+            <div><dt>Project Info</dt><dd>Product type &middot; unit count or building sq ft</dd></div>
+            <div><dt>Employer</dt><dd>Employer name</dd></div>
+            <div><dt>Financing</dt><dd>Equity &amp; debt partners (or building owner)</dd></div>
+          </dl>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">
+            <img src="images/project-2.jpg" alt=""
+                 onerror="this.style.display='none';this.parentElement.classList.add('no-img')" />
+          </div>
+          <h3>PROJECT NAME</h3>
+          <dl class="project-facts">
+            <div><dt>Address</dt><dd>Street, City, State</dd></div>
+            <div><dt>Year Built</dt><dd>Year</dd></div>
+            <div><dt>Project Info</dt><dd>Product type &middot; unit count or building sq ft</dd></div>
+            <div><dt>Employer</dt><dd>Employer name</dd></div>
+            <div><dt>Financing</dt><dd>Equity &amp; debt partners (or building owner)</dd></div>
+          </dl>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">
+            <img src="images/project-3.jpg" alt=""
+                 onerror="this.style.display='none';this.parentElement.classList.add('no-img')" />
+          </div>
+          <h3>PROJECT NAME</h3>
+          <dl class="project-facts">
+            <div><dt>Address</dt><dd>Street, City, State</dd></div>
+            <div><dt>Year Built</dt><dd>Year</dd></div>
+            <div><dt>Project Info</dt><dd>Product type &middot; unit count or building sq ft</dd></div>
+            <div><dt>Employer</dt><dd>Employer name</dd></div>
+            <div><dt>Financing</dt><dd>Equity &amp; debt partners (or building owner)</dd></div>
+          </dl>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Waterbury Development Partners, LLC</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
