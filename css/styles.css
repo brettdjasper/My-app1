@@ -241,19 +241,34 @@ section { scroll-margin-top: var(--header-h); }
 
 .project-card h3 {
   font-family: var(--font-display);
-  color: var(--text);
+  color: var(--gold);
   font-size: 1.5rem;
   font-weight: 700;
-  margin-bottom: 4px;
+  letter-spacing: 0.02em;
+  margin-bottom: 12px;
 }
-.project-meta {
-  color: var(--gold);
-  font-size: 0.95rem;
-  letter-spacing: 0.05em;
+
+.project-facts { font-size: 1.02rem; }
+.project-facts > div {
+  display: grid;
+  grid-template-columns: 7.5rem 1fr;
+  gap: 4px 14px;
+  padding: 7px 0;
+  border-top: 1px solid var(--border);
+}
+.project-facts > div:last-child { border-bottom: 1px solid var(--border); }
+.project-facts dt {
+  color: var(--text-dim);
   text-transform: uppercase;
-  margin-bottom: 10px;
+  letter-spacing: 0.07em;
+  font-size: 0.78rem;
+  padding-top: 0.18em;
 }
-.project-desc { color: var(--text-dim); font-size: 1.05rem; }
+.project-facts dd { color: var(--text); }
+
+@media (max-width: 420px) {
+  .project-facts > div { grid-template-columns: 1fr; gap: 2px; }
+}
 
 /* ---------- Team ---------- */
 .team-grid {
