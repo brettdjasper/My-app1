@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 156" role="img" aria-label="Waterbury Development Partners — WDP">
+  <g fill="none" stroke="#c79b45" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- w flowing up into the d bowl -->
+    <path d="M26 60 C 23 105, 60 107, 65 62 C 70 107, 107 109, 112 62 C 116 102, 154 104, 158 64"/>
+    <!-- d ascender + top serif -->
+    <path d="M158 64 L 158 20 M 142 20 L 176 20"/>
+    <!-- d stem flowing down into the big right loop (the p bowl + crossover) -->
+    <path d="M158 64 C 158 112, 156 134, 184 134 C 224 134, 246 104, 230 80 C 217 61, 190 66, 188 90 C 187 104, 197 109, 205 104"/>
+    <!-- p descender + bottom serif -->
+    <path d="M180 92 L 180 138 M 164 138 L 198 138"/>
+  </g>
+</svg>
