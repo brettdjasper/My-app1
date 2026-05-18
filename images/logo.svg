@@ -1,12 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 156" role="img" aria-label="Waterbury Development Partners — WDP">
-  <g fill="none" stroke="#c79b45" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
-    <!-- w flowing up into the d bowl -->
-    <path d="M26 60 C 23 105, 60 107, 65 62 C 70 107, 107 109, 112 62 C 116 102, 154 104, 158 64"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Waterbury Development Partners — WDP">
+  <g fill="none" stroke="#c79b45" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+    <!-- top-left serif + angular w, flowing into the figure-8 body -->
+    <path d="M22 232 H82
+             L156 452
+             L258 218
+             L362 458
+             L460 250
+             C 540 250, 662 252, 760 330
+             C 852 252, 1052 246, 1112 312
+             C 1182 362, 1170 472, 1066 506
+             C 958 540, 832 470, 760 346
+             C 700 412, 560 442, 500 410
+             C 440 384, 446 318, 512 304
+             C 602 288, 700 300, 760 330" />
     <!-- d ascender + top serif -->
-    <path d="M158 64 L 158 20 M 142 20 L 176 20"/>
-    <!-- d stem flowing down into the big right loop (the p bowl + crossover) -->
-    <path d="M158 64 C 158 112, 156 134, 184 134 C 224 134, 246 104, 230 80 C 217 61, 190 66, 188 90 C 187 104, 197 109, 205 104"/>
+    <path d="M760 330 L760 30 H818" />
     <!-- p descender + bottom serif -->
-    <path d="M180 92 L 180 138 M 164 138 L 198 138"/>
+    <path d="M886 404 L886 656 H944" />
   </g>
 </svg>
